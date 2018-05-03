@@ -1,8 +1,8 @@
 {
-    "family": "ecs-web-demo",
+    "family": "ecswebdemo",
     "containerDefinitions": [{
         "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-        "name": "ecs-web-demo",
+        "name": "ecswebdemo",
         "cpu": 10,
         "memory": 256,
         "essential": true,
